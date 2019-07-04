@@ -6,3 +6,27 @@
 body {
 	font-family: 'Montserrat', sans-serif;
 }
+
+/* ---- Link Styles ---- */
+
+a {
+  text-decoration: none;
+  color: #999;
+}
+
+a:hover {
+  color: #6633ff;
+}
+
+ul li {
+	list-style-type: none;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  font-weight: 700;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+}
